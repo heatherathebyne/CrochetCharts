@@ -381,5 +381,5 @@ make $VERBOSE -j $THREADS
 
 if [[ $BUILD_TYPE == "Installer" || $PACKAGE == "ON" ]]; then
     generate_icons
-    cpack ${CPACK_FLAGS}
+    # cpack ${CPACK_FLAGS}
 fi
