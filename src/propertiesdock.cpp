@@ -38,6 +38,7 @@
 #include <QFileDialog>
 
 #include "propertiesdata.h"
+#include <cmath>
 
 PropertiesDock::PropertiesDock(QTabWidget *tabWidget, QWidget *parent) :
     QDockWidget(parent),
